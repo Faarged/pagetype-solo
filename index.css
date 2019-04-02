@@ -1,5 +1,5 @@
+
 body{
-  height:auto;
   font-family: sans-serif;
 }
 li {
@@ -83,23 +83,25 @@ div#slider figure {
   margin-left: 20px;
 }
 /*parallax*/
-#parallax{
-  background:#1F1F1F url(images/master-sword.jpg) no-repeat center center;
-  -webkit-background-size: cover !important;
-  background-attachment:fixed;
-  position:relative;
-  min-height:200px;
-  width:100%;
-  overflow:hidden;
-  color: white;
-  text-align:right;
+/*#parallax{
+    background:#1F1F1F url(images/master-sword.jpg) no-repeat center center;
+    -webkit-background-size: cover !important;
+    background-attachment:fixed;
+    position:relative;
+    min-height:200px;
+    width:100%;
+    overflow:hidden;
+    color: white;
+    text-align:right;
+}*/
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    clear:both;
 }
-#parallax div{
-  position: absolute;
-  height:200%;
-  width:100%;
-  z-index:-1;
-}
+
+
 /*gallerie*/
 .box{
   display:inline-block;

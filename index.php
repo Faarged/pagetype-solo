@@ -7,9 +7,10 @@
       <!-- liens styles css-->
       <link rel="stylesheet" href="reset.css">
       <link rel="stylesheet" href="index.css">
-      <title>page type native</title>
+      <title>page code type</title>
     </head>
     <body>
+      
         <!-- création navbar-->
         <ul class="nav">
           <li><a href="index.php">Accueil</a></li>
@@ -31,11 +32,13 @@
         </div>
         <!-- fin slider-->
 
-        <!--image flottant a gauche et txt à droite-->  
-        <div class="imageflottante">
-          <img src="images/majora.jpg" style="float:left; max-width:50%; height:auto;">
+        <!--image flottant a gauche et txt à droite-->
+        <div>
+          <div class="imageflottante">
+            <img src="images/majora.jpg" style="float:left; max-width:50%; height:auto;">
+          </div>
+          <p style="color:green;">Trouver un masque maudit ne va pas faciliter la vie de skull kid, qui va devoir subir les agissements du masque sans pouvoir résister</p>
         </div>
-        <p style="color:green;">Trouver un masque maudit ne va pas faciliter la vie de skull kid, qui va devoir subir les agissements du masque sans pouvoir résister</p>
         <!-- fin image flottante-->
 
         <!-- parallax-->
@@ -48,36 +51,37 @@
         <!--fin parallax-->
 
         <!--gallerie -->
-        <div class="box">
-          <img src="images/lynel.jpeg">
-        </div>
-        <div class="box">
-          <img src="images/lynel.jpeg">
-        </div>
-        <div class="box">
-          <img src="images/lynel.jpeg">
-        </div>
-        <div class="box">
-          <img src="images/lynel.jpeg">
-        </div>
-        <div class="box">
-          <img src="images/lynel.jpeg">
-        </div>
-        <div class="box">
-          <img src="images/lynel.jpeg">
-        </div>
-        <div class="box">
-          <img src="images/lynel.jpeg">
-        </div>
-        <div class="box">
-          <img src="images/lynel.jpeg">
+        <div id="gallerie">
+          <div class="box">
+            <img src="images/lynel.jpeg">
+          </div>
+          <div class="box">
+            <img src="images/lynel.jpeg">
+          </div>
+          <div class="box">
+            <img src="images/lynel.jpeg">
+          </div>
+          <div class="box">
+            <img src="images/lynel.jpeg">
+          </div>
+          <div class="box">
+            <img src="images/lynel.jpeg">
+          </div>
+          <div class="box">
+            <img src="images/lynel.jpeg">
+          </div>
+          <div class="box">
+            <img src="images/lynel.jpeg">
+          </div>
+          <div class="box">
+            <img src="images/lynel.jpeg">
+          </div>
         </div>
         <!--fin gallerie-->
-        <!--footer-->
+      <!--footer-->
         <footer>
           <div id="footer1"><!--1er footer-->
             <div class="box2">
-
 
                   <h5>Navigation</h5>
 
@@ -100,7 +104,6 @@
             </div>
             <div class="box2">
 
-
                   <h5>Informations</h5>
 
                   <ul class="list-unstyled">
@@ -120,7 +123,6 @@
 
             </div>
             <div class="box2">
-
 
                   <h5>CGU et Infos</h5>
 
